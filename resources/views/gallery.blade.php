@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/Promo.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/Promo.webp);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -36,51 +36,51 @@
 
 
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/galeria1.jpg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/galeria2.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/galeria1.webp);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/galeria2.webp);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/galeria3.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/galeria3.webp);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
 					<div class="fh5co-bg-img" style="background-image: url(images/galleria_1.jpg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/galeria4.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/galeria4.webp);" data-trigger="zoomerang"></div>
 				</div>
 
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/galeria6.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/Promo23.webp);" data-trigger="zoomerang"></div>
 					<div class="fh5co-bg-img" style="background-image: url(images/Promo18.jpg);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/galeria5.jpg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/Promo20.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/galeria5.webp);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/Promo20.webp);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/galeria7.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/galeria7.webp);" data-trigger="zoomerang"></div>
 				</div>
 
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_1.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_2.jpeg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/gallery_1.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/nuevo.jpg);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/Promo13.JPG);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/Promo13.webp);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_4.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpeg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/gallery_4.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpg);" data-trigger="zoomerang"></div>
 				</div>
 
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_6.jpeg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/gallery_6.jpg);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_7.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_8.jpeg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/gallery_7.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img" style="background-image: url(images/gallery_8.jpg);" data-trigger="zoomerang"></div>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/person_1.jpg);" data-trigger="zoomerang"></div>
+					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/person_1.webp);" data-trigger="zoomerang"></div>
 				</div>
 			</div>
 		</div>

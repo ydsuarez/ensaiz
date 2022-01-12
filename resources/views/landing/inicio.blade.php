@@ -31,24 +31,24 @@
 
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="{{  asset("css/animate.css") }}">
+	<link rel="stylesheet" href="{{  asset('css/animate.css') }}">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="{{  asset("css/icomoon.css") }}">
+	<link rel="stylesheet" href="{{  asset('css/icomoon.css') }}">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="{{  asset("css/bootstrap.css") }}">
+	<link rel="stylesheet" href="{{  asset('css/bootstrap.css') }}">
 	<!-- Flexslider  -->
-    <link href="{{  asset("assets/vendor/bootstrap-icons/bootstrap-icons.css") }}" rel="stylesheet">
+    <link href="{{  asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easyzoom@2.5.3/css/easyzoom.css" />
 
-  <link href="{{  asset("assets/vendor/boxicons/css/boxicons.min.css") }}" rel="stylesheet">
-	<link rel="stylesheet" href="{{  asset("css/flexslider.css") }}">
+  <link href="{{  asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+	<link rel="stylesheet" href="{{  asset('css/flexslider.css') }}">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="{{  asset("css/style.css") }}">
+	<link rel="stylesheet" href="{{  asset('css/style.css') }}">
 
 	<!-- Modernizr JS -->
-	<script src="{{  asset("js/modernizr-2.6.2.min.js") }}"></script>
+	<script src="{{  asset('js/modernizr-2.6.2.min.js') }}"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>

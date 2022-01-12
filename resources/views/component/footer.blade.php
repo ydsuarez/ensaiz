@@ -9,7 +9,6 @@
 					<h4>Enlaces</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="{{ route('home') }}">Inicio</a></li>
-						<li><a href="{{ route('about') }}">Nosotros</a></li>
 						<li><a href="{{ route('menu') }}">Menu</a></li>
 						<li><a href="{{ route('gallery') }}">Galería</a></li>
 					</ul>
@@ -20,8 +19,8 @@
 				<div class="col-md-4 col-md-push-1 fh5co-widget">
 					<h4>Información de contaco</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="tel://5359793536">+ 5359793536</a></li>
-						<li><a href="mailto:ydsuarez.9@gmail.com" >ydsuarez.9@gmail.com</a></li>
+						<li><a href="tel://5 3211260">+ 05 3211260</a></li>
+						<li><a href="mailto:ydsuarez.9@gmail.com" >ensaiz@nauta.cu</a></li>
 						<li><a href="#">YadSof</a></li>
 					</ul>
 				</div>

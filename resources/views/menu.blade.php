@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/Promo.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/Promo.webp);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -37,7 +37,7 @@
                 @foreach ($posts as $pos)
                     <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
 					    <div class="fh5co-item animate-box {{ $i++ % 2 == 1 ? 'margin_top' : '' }}">
-                            <img src="{{ Voyager::image($pos->image) }}"  style=" box-shadow: 0px 10px 10px black; width: 100%; border-radius: 93px; height:200px;"  class="img-responsive d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400" alt="enSaiz">
+                            <img src="{{ Voyager::image($pos->image) }}"  style="border: solid 0.5em #eee;box-shadow: 0px 10px 10px black;width: 83%;border-radius: 116px;height: 196px;"  class="img-responsive d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400" alt="enSaiz">
                             <h3>{{ $pos->title }}</h3>
 
                             <p>{{ $pos->excerpt }}</p>

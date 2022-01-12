@@ -16,7 +16,7 @@
 </div>
 @endif
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/Promo.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/Promo.webp);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -61,7 +61,7 @@
 					<aside id="fh5co-slider-wrwap">
 					<div class="flexslider">
 						<ul class="slides">
-					   	<li  style=" width: 100%; background-image: url(images/Promo2.JPG);">
+					   	<li  style=" width: 100%; background-image: url(images/Promo2.webp);">
 					   		<div class="overlay-gradient"></div>
 					   		<div class="container-fluid">
 					   			<div class="row">
@@ -69,7 +69,7 @@
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
 													<h2>Lobby-Bar "El dominó"</h2>
-													<p>Área para conversar compartir y disfrutar de buena música mientras toma una soda en compañia.</p>
+													<h2 style="color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">Área para conversar compartir y disfrutar de buena música mientras toma una soda en compañia.</h2>
                                                     <p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
 						   				</div>
@@ -85,7 +85,7 @@
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
 													<h2>Espacio Privado</h2>
-													<p>... un encuentro privado y un ambiente acogedor junto a amigos, familia o pareja.</p>
+													<h2 style=" color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">... un encuentro privado y un ambiente acogedor junto a amigos, familia o pareja.</h2>
 													<p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
 						   				</div>
@@ -93,7 +93,7 @@
 						   		</div>
 					   		</div>
 					   	</li>
-					   	<li style=" width: 100%; background-image: url(images/Promo9.jpg);">
+					   	<li style=" width: 100%; background-image: url(images/Promo9.webp);">
 					   		<div class="overlay-gradient"></div>
 					   		<div class="container-fluid">
 					   			<div class="row">
@@ -101,7 +101,7 @@
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
 													<h2>Patio "Don Pacho"</h2>
-													<p>Auténticos platos nacionales e intertacionales.</p>
+													<h2 style=" color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">Auténticos platos nacionales e intertacionales.</h2>
 													<p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
 						   				</div>
@@ -109,7 +109,7 @@
 						   		</div>
 					   		</div>
 					   	</li>
-                           	<li style="width: 100%; background-image: url(images/Promo23.jpg);">
+                           	<li style="width: 100%; background-image: url(images/Promo23.webp);">
 					   		<div class="overlay-gradient"></div>
 					   		<div class="container-fluid">
 					   			<div class="row">
@@ -117,7 +117,7 @@
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
 													<h2>Terrazas</h2>
-													<p>Diseñada para disfrutar de un ambiente exterior con vista hurbana.</p>
+													<h2 style=" color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">Diseñada para disfrutar de un ambiente exterior con vista hurbana.</h2>
                                                     <p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
 						   				</div>
@@ -216,6 +216,8 @@
 
 
 
+
+
 	<div id="fh5co-featured-menu" class="fh5co-section">
 		<div class="container">
 			<div class="row">
@@ -235,7 +237,7 @@
 
                     <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
 					    <div class="fh5co-item animate-box {{ $i++ % 2 == 1 ? 'margin_top' : '' }}">
-                            <img src="{{ Voyager::image($pos->image) }}" style=" box-shadow: 0px 10px 10px black; width: 100%; border-radius:93px; height:200px;" class="img-responsive d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400" alt="enSaiz">
+                            <img src="{{ Voyager::image($pos->image) }}" style=" border: solid 0.5em #eee;box-shadow: 0px 10px 10px black;width: 83%;border-radius: 116px;height: 196px;" class="img-responsive d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400" alt="enSaiz">
                             <h3>{{ $pos->title }}</h3>
 
                             <p>{{ $pos->excerpt }}</p>
@@ -272,7 +274,7 @@
 				</div>
 
 				<div class="col-md-5 animate-box img-to-responsive animate-box" data-animate-effect="fadeInLeft">
-						<img src="images/person_1.jpg" style="width: 210%;" alt="">
+						<img src="images/person_1.webp" style="width: 210%;" alt="">
 				</div>
 
 			</div>
@@ -293,7 +295,7 @@
 				<div class="col-md-4 ">
 					<div class="fh5co-blog   margin_top animate-box">
 	<div class="easyzoom easyzoom--overlay" >
-    <a   href="{{ Voyager::image(setting('site.hostal1')) }}">  <img src="{{ Voyager::image(setting('site.hostal1')) }}" style=" width: 100%; border-radius: 25px; height:300px;"   alt="enSaiz"></a>
+    <a   href="{{ Voyager::image(setting('site.hostal1')) }}">  <img src="{{ Voyager::image(setting('site.hostal1')) }}" style=" width: 100%; border-radius: 6px; height:285px;"   alt="enSaiz"></a>
 					</div>
 				</div>
                 </div>
@@ -301,7 +303,7 @@
 				<div class="col-md-4 ">
 					<div class="fh5co-blog   margin_top animate-box">
 	<div class="easyzoom easyzoom--overlay" >
-    <a   href="{{ Voyager::image(setting('site.hostal2')) }}">  <img src="{{ Voyager::image(setting('site.hostal2')) }}" style=" width: 100%; border-radius: 25px; height:300px;"   alt="enSaiz"></a>
+    <a   href="{{ Voyager::image(setting('site.hostal2')) }}">  <img src="{{ Voyager::image(setting('site.hostal2')) }}" style=" width: 100%; border-radius: 6px; height:285px;"   alt="enSaiz"></a>
 					</div>
 				</div>
                 </div>
@@ -309,18 +311,16 @@
 				<div class="col-md-4 ">
 					<div class="fh5co-blog   margin_top animate-box">
 	<div class="easyzoom easyzoom--overlay" >
-    <a   href="{{ Voyager::image(setting('site.hostal3')) }}">  <img src="{{ Voyager::image(setting('site.hostal3')) }}" style=" width: 100%; border-radius: 25px; height:300px;"   alt="enSaiz"></a>
+    <a   href="{{ Voyager::image(setting('site.hostal3')) }}">  <img src="{{ Voyager::image(setting('site.hostal3')) }}" style=" width: 100%; border-radius: 6px; height:285px;"   alt="enSaiz"></a>
 					</div>
 				</div>
                 </div>
-
-
-
 
 
 			</div>
 		</div>
 	</div>
+
 
 
 	<div id="fh5co-contact" class="fh5co-section animate-box">

@@ -11,10 +11,10 @@
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li class="{{ $menu_home ?? '' }}"><a href="{{ route('home') }}">Inicio</a></li>
+							<li class="fh5co-section {{ $menu_home ?? '' }}"><a href="{{ route('home') }}">Inicio</a></li>
 
-							<li class="{{ $menu_menu ?? '' }}"><a href="{{ route('menu') }}">Menu</a></li>
-							<li class="{{ $menu_gallery ?? '' }}"><a href="{{ route('gallery') }}">Galería</a></li>
+							<li class="fh5co-section {{ $menu_menu ?? '' }}"><a href="{{ route('menu') }}">Menu</a></li>
+							<li class="fh5co-section {{ $menu_gallery ?? '' }}"><a href="{{ route('gallery') }}">Galería</a></li>
 
 						</ul>
 					</div>
@@ -23,5 +23,4 @@
 			</div>
 		<!-- </div> -->
 	</nav>
-	</div>
 
