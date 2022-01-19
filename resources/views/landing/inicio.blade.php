@@ -26,8 +26,7 @@
     <link rel="shortcut icon" href="{{  asset("images/favicon.png") }}" type="">
 
 
-	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
 
 
 	<!-- Animate.css -->
@@ -39,7 +38,7 @@
 	<!-- Flexslider  -->
     <link href="{{  asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easyzoom@2.5.3/css/easyzoom.css" />
+    <link rel="stylesheet" href="{{  asset('css/easyzoom.css') }}" />
 
   <link href="{{  asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="{{  asset('css/flexslider.css') }}">
@@ -50,10 +49,7 @@
 	<!-- Modernizr JS -->
 	<script src="{{  asset('js/modernizr-2.6.2.min.js') }}"></script>
 	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
-	<![endif]-->
+
 
 	</head>
 

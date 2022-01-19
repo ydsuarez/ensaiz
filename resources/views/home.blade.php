@@ -53,7 +53,7 @@
 			<div class="row">
 				<div class="col-md-6 animate-box">
 					<div class="fh5co-heading">
-						<h2>Nuestros Locales</h2>
+						<h2 style="font-size: xxx-large;font-style: italic;">Nuestros Locales</h2>
 						<p>La instalación cuenta con lobby, restaurante,espacio privado, terrazas y habitaciones, climatizados y bien decorados para su disfrute.</p>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
-													<h2>Lobby-Bar "El dominó"</h2>
+													<h2 style="font-size: xxx-large; font-style: italic;">Lobby-Bar "El dominó"</h2>
 													<h2 style="color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">Área para conversar compartir y disfrutar de buena música mientras toma una soda en compañia.</h2>
                                                     <p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
@@ -77,14 +77,14 @@
 						   		</div>
 					   		</div>
 					   	</li>
-					   	<li style="width: 100%; background-image: url(images/Promo18.jpg);">
+					   	<li style="width: 100%; background-image: url(images/Promo18.webp);">
 					   		<div class="overlay-gradient"></div>
 					   		<div class="container-fluid">
 					   			<div class="row">
 						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
-													<h2>Espacio Privado</h2>
+													<h2 style=" font-size: xxx-large; font-style: italic;">Espacio Privado</h2>
 													<h2 style=" color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">... un encuentro privado y un ambiente acogedor junto a amigos, familia o pareja.</h2>
 													<p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
@@ -100,7 +100,7 @@
 						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
-													<h2>Patio "Don Pacho"</h2>
+													<h2 style=" font-size: xxx-large;font-style: italic;">Patio "Don Pacho"</h2>
 													<h2 style=" color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">Auténticos platos nacionales e intertacionales.</h2>
 													<p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
@@ -116,7 +116,7 @@
 						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
-													<h2>Terrazas</h2>
+													<h2 style="font-size: xxx-large; font-style: italic;">Terrazas</h2>
 													<h2 style=" color: rgba(233, 219, 219, 0.897);    font-size: 18px;    line-height: 1.5;">Diseñada para disfrutar de un ambiente exterior con vista hurbana.</h2>
                                                     <p><a href="#fh5co-featured-menu" class="btn btn-primary btn-outline">Próxima</a></p>
 						   					</div>
@@ -140,7 +140,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Servicios</h2>
+					<h2 style="font-size: xxx-large; font-style: italic;">Servicios</h2>
 					<p>Todos con excelencia y prefesionalidad.</p>
 				</div>
 			</div>
@@ -222,7 +222,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Nuestros Platos</h2>
+					<h2 style=" font-size: xxx-large;font-style: italic;">Nuestros Platos</h2>
 					<div class="row">
 						<div class="col-md-6">
 							<p>Contamos con una amplia y exquisita variedad de ofertas , la calidad nos distinge y al final usted dirá <i>!Bravo¡</i>.</p>
@@ -231,20 +231,22 @@
 				</div>
 
                 @php $i=0; @endphp
-                @foreach ($post as $pos)
-                    @if ($pos->id< 5)
+
+                @for ($c=0;$c < 4; $c++)
+
 
 
                     <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
 					    <div class="fh5co-item animate-box {{ $i++ % 2 == 1 ? 'margin_top' : '' }}">
-                            <img src="{{ Voyager::image($pos->image) }}" style=" border: solid 0.5em #eee;box-shadow: 0px 10px 10px black;width: 83%;border-radius: 116px;height: 196px;" class="img-responsive d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400" alt="enSaiz">
-                            <h3>{{ $pos->title }}</h3>
+                            <img src="{{ Voyager::image($post[$c]->image) }}" style=" border: solid 0.5em #eee;box-shadow: 0px 10px 10px black;width: 83%;border-radius: 116px;height: 196px;" class="img-responsive d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400" alt="enSaiz">
+                            <h3>{{ $post[$c]->title }}</h3>
 
-                            <p>{{ $pos->excerpt }}</p>
+                            <p>{{ $post[$c]->excerpt }}</p>
 				        </div>
 				    </div>
-                    @endif
-                @endforeach
+
+
+                @endfor
 			</div>
 		</div>
 	</div>
@@ -265,7 +267,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Equipo de Trabajo</h2>
+					<h2 style=" font-size: xxx-large;font-style: italic;">Equipo de Trabajo</h2>
 					<div class="row">
 						<div class="col-md-6">
 							<p>Personal calificado con más de una década de experiencia, Enfoncados en brindar un servicio de excelencia con buen trato a nuestros clientes. </p>
@@ -285,7 +287,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Habitaciones</h2>
+					<h2 style=" font-size: xxx-large; font-style: italic;" >Habitaciones</h2>
 					<p>Nuestra instalación cuenta con tres habitaciones climatizadas, cada una con entradas independientes, seguridad, confort, TV, video, agua fría y caliente, minibar habilitado, espejos panorámicos y servicio de habitación las 24 horas. </p>
 				</div>
 			</div>
@@ -327,7 +329,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Formulario de Contacto</h2>
+					<h2 style="font-size: xxx-large; font-style: italic;">Formulario de Contacto</h2>
 					<p>Puedes Contactarnos por el formularios de contacto para solicitar nuestros servicios, dudas o sujerencias. Será atendido con prontitud</p>
 
 				</div>
